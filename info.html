@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Azienda INformazioni</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="info.css">
+    </head>
+    <body>
+        <div class="contenitore">
+
+            <!-- faccio l'header -->
+            <header>
+                <h1>MobilificioKekko</h1>
+
+                <!--menu-->
+                <nav id="menu" class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="prodotti.html">Prodotti</a>
+                    <a href="info.html">Informazioni</a>
+                </nav>
+            </header>
+
+            <!-- faccio sidebar dove metto i contatti -->
+            <aside class="sidebar">
+
+                <h2>Contatti</h2>
+
+                <p>Roma, Italia</p>
+                <p>Tel: 12345678</p>
+                <p>info@mobilificioKekko.it</p>
+
+            </aside>
+
+            <!-- creo il main -->
+            <main>
+                <h2>Richiedi Informazioni</h2>
+
+                <form id="formInfo">
+                    <input type="email" id="email" placeholder="mariorossi@esempio.it" required>
+                    <textarea id="messaggio" placeholder="Scrivi il tuo messaggio" required></textarea>
+                    <button type="submit">Invia richiesta</button>
+                </form>
+
+                <!-- messaggi -->
+                <section id="contenitoreMessaggi"></section>
+
+            </main>
+
+        </div>
+        
+        <script src="info.js" async defer></script>
+    </body>
+</html>
